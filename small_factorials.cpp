@@ -61,22 +61,12 @@ string fact(int d1,vector<string>& arr){
         return arr[d1];
     }
     else return arr[d1];
-
 }
 int main(){
     int t;
     cin>>t;
     vector<string> arr(101,"0");
-/*
-    ofstream fn;
-    fn.open("100");
-    for(int i=1;i<100;++i){
-        fn<<i<<" ";
-        fn<<fact(i,arr);
-        fn<<'\n';
-    }
-    fn.close();
-    */
+
     while(t>0){
         int d1;
         cin>>d1;
